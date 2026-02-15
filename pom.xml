@@ -17,6 +17,7 @@
 
     <modules>
 
+        <module>Redis</module>
     </modules>
 
     <dependencies>
