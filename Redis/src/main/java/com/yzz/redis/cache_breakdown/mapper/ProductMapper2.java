@@ -1,8 +1,8 @@
-package com.yzz.redis.cache_avalanche.mapper;
+package com.yzz.redis.cache_breakdown.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
-import com.yzz.redis.cache_avalanche.domain.po.Product;
+import com.yzz.redis.cache_breakdown.domain.po.Product;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

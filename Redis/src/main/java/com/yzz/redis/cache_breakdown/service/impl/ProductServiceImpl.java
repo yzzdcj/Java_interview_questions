@@ -1,12 +1,12 @@
-package com.yzz.redis.cache_avalanche.service.impl;
+package com.yzz.redis.cache_breakdown.service.impl;
 
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yzz.redis.cache_avalanche.domain.po.Product;
-import com.yzz.redis.cache_avalanche.domain.po.RedisData;
-import com.yzz.redis.cache_avalanche.mapper.ProductMapper2;
-import com.yzz.redis.cache_avalanche.service.ProductService;
+import com.yzz.redis.cache_breakdown.domain.po.Product;
+import com.yzz.redis.cache_breakdown.domain.po.RedisData;
+import com.yzz.redis.cache_breakdown.mapper.ProductMapper2;
+import com.yzz.redis.cache_breakdown.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.StringRedisTemplate;

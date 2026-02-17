@@ -1,4 +1,4 @@
-package com.yzz.redis.cache_avalanche.domain.po;
+package com.yzz.redis.cache_breakdown.domain.po;
 
 import lombok.Data;
 

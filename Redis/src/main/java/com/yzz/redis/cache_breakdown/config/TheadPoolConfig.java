@@ -1,4 +1,4 @@
-package com.yzz.redis.cache_avalanche.config;
+package com.yzz.redis.cache_breakdown.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
