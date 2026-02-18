@@ -11,5 +11,17 @@ spring:
     url: jdbc:mysql://localhost:3306/jiq?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: 123456zzsad
+    password: 123456
+
+  rabbitmq:
+    host: 192.168.21.128
+    port: 5672
+    virtual-host: /jiq # 虚拟主机
+    username: jiq # 用户名
+    password: 123 # 密码
+    listener:
+      simple:
+        acknowledge-mode: manual
+        # 建议开启：每次预取 1 条消息，处理完再取下一条，防止积压
+        prefetch: 1
 
